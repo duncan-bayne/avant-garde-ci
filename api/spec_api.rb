@@ -3,9 +3,9 @@ require 'json'
 require 'open3'
 require 'sinatra/base'
 
-module CalculatorService
+module AvantGardeService
 
-  class CalculatorApi < Sinatra::Base
+  class AvantGardeApi < Sinatra::Base
 
     get '/specs' do
       content_type :json

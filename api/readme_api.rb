@@ -1,9 +1,9 @@
 require 'markdown'
 require 'sinatra/base'
 
-module CalculatorService
+module AvantGardeService
 
-  class CalculatorApi < Sinatra::Base
+  class AvantGardeApi < Sinatra::Base
 
     get '/' do
       <<-EOHTML

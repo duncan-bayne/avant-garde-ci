@@ -5,6 +5,7 @@ gem 'markdown'
 gem 'rack'
 gem 'rake'
 gem 'sinatra'
+gem 'trebuchet', :git => 'https://github.com/duncan-bayne/trebuchet'
 
 # note that these are here, not in :development, :test because there is a /specs endpoint
 gem 'rspec'

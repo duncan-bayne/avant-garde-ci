@@ -2,8 +2,9 @@ require 'bundler'
 require 'rake'
 require 'rspec/core/rake_task'
 require 'rubygems'
-require_relative 'lib/tasks/roodi.rb'
+require_relative 'lib/tasks/bootstrap.rb'
 require_relative 'lib/tasks/build.rb'
+require_relative 'lib/tasks/roodi.rb'
 
 begin
   Bundler.setup(:default, :development)
