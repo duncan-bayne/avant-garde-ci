@@ -5,8 +5,7 @@ module AvantGardeService
 
   class AvantGardeApi < Sinatra::Base
 
-    post '/commit' do
-
+    post '/receive' do
     end
 
   end

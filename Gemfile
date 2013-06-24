@@ -13,6 +13,7 @@ gem 'rspec-spies'
 
 group :development, :test do
   gem 'pry'
+  gem 'rack-test'
   gem 'roodi'
 end
 
